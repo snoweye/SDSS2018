@@ -4,7 +4,7 @@
 2018 Symposium on Data Science and Statistics (SDSS)
 
 ### Title:
-Phyloclustering: A Model-Based Approach for Identifying Microbial Populations (304773)
+Phyloclustering: A Model-Based Approach for Identifying Microbial Populations
 
 ### Speaker:
 Wei-Chen Chen, pbdR Core Team 
