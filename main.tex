@@ -20,7 +20,10 @@
 \usepackage[english]{babel}
 
 
-\title[Phyloclustering]{Phyloclustering: A Model-Based Approach for Identifying Microbial Populations}
+\title[Phyloclustering]{Phyloclustering: A Model-Based Approach for Identifying Microbial Populations\footnote{
+\tiny
+This was a joint work with Drs. Dorman, Maitra, and Carpenter at Iowa State
+University and supported in part by NSF grants}}
 \author{\large Wei-Chen Chen}
 \institute{\normalsize \pbdR Core Team}
 \date{\small 2018 Symposium on Data Science and Statistics (SDSS)}
@@ -106,19 +109,6 @@ Phylogeny of Retroviruses
 %-----------------------------------------------------------------------------
 
 \begin{frame}{Motivation III}
-PAQ: Partition Analysis of Quasispecies (Baccam et.al. (2001)).
-\vspace{-0.2cm}
-\begin{figure}
-\includegraphics[width=0.9\textwidth]{./graph/paq}
-\\
-{\tiny Baccam et al. (2003).}
-\end{figure}
-
-\end{frame}
-
-%-----------------------------------------------------------------------------
-
-\begin{frame}{Motivation IV}
 146 EIAV {\it rev} sequences of pony 524.
 
 \vspace{-0.2cm}
@@ -147,7 +137,7 @@ PAQ: Partition Analysis of Quasispecies (Baccam et.al. (2001)).
 
 %-----------------------------------------------------------------------------
 
-\begin{frame}{Motivation V}
+\begin{frame}{Motivation IV}
 Number of bifurcating unrooted trees $N_U$ for $n\geq 3$ sequences is
 $$
 N_U = \frac{(2n - 5)!}{2^{n - 3} (n - 3)!}.
@@ -177,11 +167,10 @@ Number of sequences & Number of unrooted trees \\ \hline
 
 \begin{frame}{Goals of Phyloclustering}
 \begin{itemize}
-\item to identify population centers where sequences may diverge from,
-\item to establish a model based approach to cluster sequences
+\item to establish a model based approach that clusters sequences
       with phylogenetic meaning,
-\item to distinguish population structure based on classifications, and 
-\item to aggregate trustworthy sequence information. 
+\item to distinguish subpopulations based on classifications, and 
+\item to aggregate representatives of subpopulations.
 \end{itemize}
 \end{frame}
 
